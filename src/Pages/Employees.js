@@ -1,7 +1,5 @@
-import { Avatar} from "@mui/material";
-import {
-  DataGrid,
-} from "@mui/x-data-grid";
+import { Avatar } from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
 import { employeesData } from "../Data/dummy";
 import Header from "../Components/Header";
 
@@ -48,7 +46,7 @@ const Employees = () => {
   ];
 
   return (
-    <div className="m-2 mt-8 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 mt-8 md:m-10 p-2 pt-14 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Employees" />
       <div className="h-[40rem]">
         <DataGrid rows={employeesData} columns={columns} />

@@ -13,7 +13,7 @@ export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initailState);
   const handleClick = (ele) => {
-    isClicked[ele] == false
+    isClicked[ele] === false
       ? setIsClicked({ ...initailState, [ele]: true })
       : setIsClicked(initailState);
   };

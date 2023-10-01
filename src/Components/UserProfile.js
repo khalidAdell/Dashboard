@@ -10,13 +10,14 @@ const UserProfile = () => {
   return (
     <div
       className="p-8 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg absolute top-[3rem] 
-    right-0 w-[25rem] shadow-md z-[500]"
+    right-0 w-[20rem] sm:w-[25rem] shadow-md z-[500]"
     >
       <h2 className="font-semibold text-lg mb-2">User Profile</h2>
       <div className="flex items-center gap-2 leading-7 p-5">
         <img
-          src="Images/avatar.jpg"
-          className="rounded-full w-[6rem] h-[6rem] object-contain"
+          alt="user"
+          src="https://images.unsplash.com/photo-1529665253569-6d…8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+          className="rounded-full w-[6rem] h-[6rem] object-cover"
         />
         <div>
           <h2 className="font-semibold text-lg">Khalid Adel</h2>

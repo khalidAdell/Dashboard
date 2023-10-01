@@ -6,7 +6,7 @@ const Notification = () => {
   return (
     <div
       className="p-8 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg absolute top-[3rem] 
-    right-0 w-[23rem] shadow-md z-[500]"
+    right-[-7.5rem] sm:right-0 w-[20rem] sm:w-[23rem] shadow-md z-[500]"
     >
       <h2 className="font-semibold mb-2 flex items-center gap-3 text-base">
         Notification
@@ -25,6 +25,7 @@ const Notification = () => {
         after:absolute"
       >
         <img
+          alt="user"
           src="Images/avatar.jpg"
           className="rounded-full w-[3rem] h-[3rem] object-contain"
         />
@@ -44,6 +45,7 @@ const Notification = () => {
         after:absolute"
       >
         <img
+          alt="user"
           src="Images/avatar4.jpg"
           className="rounded-full w-[3rem] h-[3rem] object-contain"
         />
@@ -63,6 +65,7 @@ const Notification = () => {
         after:absolute"
       >
         <img
+          alt="user"
           src="Images/avatar2.jpg"
           className="rounded-full w-[3rem] h-[3rem] object-contain"
         />
@@ -82,6 +85,7 @@ const Notification = () => {
         after:absolute"
       >
         <img
+          alt="user"
           src="Images/avatar3.png"
           className="rounded-full w-[3rem] h-[3rem] object-contain"
         />

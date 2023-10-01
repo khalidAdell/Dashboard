@@ -61,13 +61,13 @@ const Customers = () => {
       renderCell: (params) => (
         <h3
           className={`rounded-xl text-center border-[1px] p-1 w-[5rem]${
-            params.value == "Complete"
+            params.value === "Complete"
               ? " text-[#8BE78B]"
-              : params.value == "Active"
+              : params.value === "Active"
               ? " text-[#03C9D7]"
-              : params.value == "Rejected"
+              : params.value === "Rejected"
               ? " text-red-500"
-              : params.value == "Pending"
+              : params.value === "Pending"
               ? " text-[#FB9678]"
               : " text-[#FF5C8E]"
           }`}
@@ -95,7 +95,7 @@ const Customers = () => {
   ];
 
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 p-2 pt-14 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Customers" />
       <div className="h-[40rem]">
         <DataGrid

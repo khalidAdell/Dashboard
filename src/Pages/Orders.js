@@ -4,7 +4,7 @@ import Header from "../Components/Header";
 
 const Orders = () => {
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 p-2 pt-14 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Orders" />
       <div className="h-[40rem]">
         <DataGrid

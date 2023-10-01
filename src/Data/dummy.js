@@ -3774,25 +3774,25 @@ export const kanbanGrid = {
   Open: {
     headerText: "To Do",
     keyField: "Open",
-    items: kanbanData.filter((item) => item.Status == "Open"),
+    items: kanbanData.filter((item) => item.Status === "Open"),
   },
 
   InProgress: {
     headerText: "In Progress",
     keyField: "In Progress",
-    items: kanbanData.filter((item) => item.Status == "In Progress"),
+    items: kanbanData.filter((item) => item.Status === "In Progress"),
   },
 
   Testing: {
     headerText: "Testing",
     keyField: "Testing",
-    items: kanbanData.filter((item) => item.Status == "Testing"),
+    items: kanbanData.filter((item) => item.Status === "Testing"),
     isExpanded: false,
   },
 
   Close: {
     headerText: "Done",
     keyField: "Close",
-    items: kanbanData.filter((item) => item.Status == "Close"),
+    items: kanbanData.filter((item) => item.Status === "Close"),
   },
 };
