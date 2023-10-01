@@ -1,4 +1,5 @@
 {
+  "homepage": "https://khalidadell.github.io/Dashboard/",
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,7 @@
     "@nivo/geo": "^0.83.0",
     "@nivo/line": "^0.83.0",
     "@nivo/pie": "^0.83.0",
+    "gh-pages": "^6.0.0",
     "fullcalendar": "^6.1.8",
     "i": "^0.3.7",
     "npm": "^9.8.0",
@@ -36,6 +38,8 @@
     "react-tooltip": "^5.14.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

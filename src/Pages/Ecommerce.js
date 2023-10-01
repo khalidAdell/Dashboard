@@ -57,7 +57,7 @@ const Ecommerce = () => {
                 <span
                   className={`text-sm font-normal ml-2 
                   ${
-                    item.percentage[0] == "-"
+                    item.percentage[0] === "-"
                       ? "text-red-600"
                       : "text-green-600"
                   }`}
